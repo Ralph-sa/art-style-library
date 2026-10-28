@@ -1,6 +1,8 @@
-# Art Style Library · 私人风格库
+# 私人风格库
 
 纯静态网站：按 Cookbook 风格包结构管理你收集的美术风格，支持分类浏览、详情、一键复制正向/负向提示词、查看参考图。第一包：**Sung Choi × Concord**。
+
+> 界面与说明为简体中文；**提示词正文（正向 / 负向 / 模块）保留英文**，便于本机 Aiart 生图。
 
 ## 本地打开
 
@@ -46,7 +48,7 @@ art-style-library/
    mkdir -p styles/<你的-id>/refs styles/<你的-id>/prompts
    ```
 2. 放入 `cover.jpg`、精选 `refs/`（建议 8–12 张）、可选 `prompts/*.txt` 与分析 Markdown。
-3. 编辑 `styles/<你的-id>/style.json`（字段说明见模板与第一包）。
+3. 编辑 `styles/<你的-id>/style.json`（字段说明见模板与第一包；提示词字段请写英文）。
 4. 在 `styles/index.json` **追加一条**清单项：
    ```json
    {
@@ -65,7 +67,7 @@ art-style-library/
 ## 出图工作流（建议）
 
 1. 在本站打开风格详情 → **一键复制正向** / **复制负向**。
-2. 从参考图网格挑选约 3 张（`aiart.recommended_refs`）。
+2. 从参考图网格挑选约 3 张（见 `aiart.recommended_refs`）。
 3. 本机 Aiart（推荐 gpt 模式）粘贴提示词并附上参考图生成。
 4. 按 `notes_zh` 与 `STYLE_ANALYSIS.md` 检查硬边、大平面留白、尺度层级（L1/L2/L3）。
 
@@ -87,5 +89,6 @@ art-style-library/
 ## 技术说明
 
 - 纯静态，无构建步骤，无海外 CDN 字体（系统字体栈）。
-- 深色界面色板借鉴 Concord 风格参考页（teal / amber）。
-- 详情为同页 modal + hash 路由（如 `#sung-choi-concord`）。
+- 深色界面色板借鉴 Concord 风格参考页（青绿 / 琥珀）。
+- 详情为同页弹层 + hash 路由（如 `#sung-choi-concord`）。
+- 仓库名仍为 `art-style-library`（路径不变）；站点品牌显示为「私人风格库」。

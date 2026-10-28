@@ -1,4 +1,4 @@
-/* Art Style Library — pure static frontend */
+/* 私人风格库 — 纯静态前端 */
 (function () {
   "use strict";
 
@@ -14,6 +14,20 @@
       path: "styles/sung-choi-concord"
     }
   ];
+
+  const MODULE_LABELS = {
+    style_lock: "风格锁定",
+    render_clean: "干净渲染",
+    scale: "尺度层级",
+    light: "光照",
+    palette: "色板描述",
+    camera: "镜头",
+    mood: "氛围"
+  };
+
+  function moduleLabel(key) {
+    return MODULE_LABELS[key] || key;
+  }
 
   const state = {
     index: [],
@@ -266,7 +280,7 @@
       .map(function (k) {
         return (
           '<div class="module"><div class="module-head"><span class="module-name">' +
-          esc(k) +
+          esc(moduleLabel(k)) +
           '</span><button type="button" class="btn" data-copy-key="module:' +
           escAttr(k) +
           '">复制</button></div><pre>' +
@@ -305,7 +319,7 @@
       "</span>" +
       "<span>Aiart " +
       esc((style.aiart && style.aiart.mode) || "gpt") +
-      " · 建议 refs " +
+      " · 建议参考图 " +
       ((style.aiart && style.aiart.recommended_refs) || 3) +
       "</span>" +
       "</div>" +
@@ -320,6 +334,7 @@
       (style.notes_zh
         ? '<div class="notes">' + esc(style.notes_zh) + "</div>"
         : "") +
+      '<p class="prompt-lang-note" style="margin:12px 0 0;color:var(--faint);font-size:12px">提示词正文为英文，便于 Aiart 生图</p>' +
       '<div class="section-label"><h3>色板</h3></div>' +
       '<div class="palette">' +
       (paletteHtml || "<span style='color:var(--muted)'>无</span>") +
@@ -339,7 +354,7 @@
       modulesHtml +
       "</div>" +
       (style.example_subject
-        ? '<div class="section-label"><h3>示例 SUBJECT</h3>' +
+        ? '<div class="section-label"><h3>示例主体</h3>' +
           '<button type="button" class="btn" data-copy-key="example_subject">复制</button></div>' +
           '<div class="prompt-box"><pre>' +
           esc(style.example_subject) +

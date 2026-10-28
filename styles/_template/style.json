@@ -3,7 +3,10 @@
   "name": "风格显示名",
   "artist": "艺术家名",
   "project": "项目名（可选）",
-  "tags": ["标签1", "标签2"],
+  "tags": [
+    "标签1",
+    "标签2"
+  ],
   "category": "环境概念",
   "aspect": "16:9",
   "aiart": {
@@ -15,22 +18,25 @@
     "refs/example-01.jpg"
   ],
   "palette": [
-    {"hex": "#2E6B63", "name": "主色名"}
+    {
+      "hex": "#2E6B63",
+      "name": "主色名（中文）"
+    }
   ],
   "modules": {
-    "style_lock": "English style lock sentence...",
-    "render_clean": "render / finish module...",
-    "scale": "scale hierarchy...",
-    "light": "lighting module...",
-    "palette": "palette module...",
-    "camera": "camera module...",
-    "mood": "mood module..."
+    "style_lock": "（英文）风格锁定句，供 Aiart 生图…",
+    "render_clean": "（英文）干净渲染 / 完成度模块…",
+    "scale": "（英文）尺度层级模块…",
+    "light": "（英文）光照模块…",
+    "palette": "（英文）色板描述模块…",
+    "camera": "（英文）镜头模块…",
+    "mood": "（英文）氛围模块…"
   },
   "subject_slot": "{{SUBJECT}}",
   "prompt_template": "{{style_lock}}. SUBJECT: {{SUBJECT}}. {{scale}}. {{light}}. {{palette}}. {{camera}}. {{render_clean}}. {{mood}}",
-  "example_subject": "a short English subject description...",
-  "prompt_full_example": "Paste a complete ready-to-copy English prompt here.",
-  "negative": "things to avoid...",
+  "example_subject": "（英文）示例主体描述，供拼进提示词…",
+  "prompt_full_example": "（英文）完整可一键复制的正向提示词正文。",
+  "negative": "（英文）负向提示词…",
   "notes_zh": "出图注意与工作流说明（中文）",
   "copyright": "仅供个人学习与风格研究"
 }
