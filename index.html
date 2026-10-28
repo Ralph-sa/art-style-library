@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Style Library · 私人风格库</title>
+  <link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand">Art Style <span>Library</span></div>
+      <div class="spacer"></div>
+      <div class="hint">本地风格包 · Cookbook 结构 · 一键复制提示词</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="kicker">Private Style Vault</div>
+      <h1>风格分类 · 提示词 · 参考图</h1>
+      <p>把收集的艺术家风格收成可扩展风格包：浏览分类、复制正向/负向提示词、查看参考图，配合本机 Aiart 快速出图。</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <input id="search" class="search" type="search" placeholder="搜索名称 / 艺术家…" autocomplete="off">
+      <div id="filters" class="filters" aria-label="分类筛选"></div>
+    </div>
+    <div id="count" class="count"></div>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <strong>版权声明</strong><br>
+      本站为个人学习与风格研究用途。参考图来自各艺术家在 ArtStation 等平台的公开作品，版权归原作者所有；请勿用于商业发行或冒充原作。<br>
+      新增风格请见仓库 README；推荐用 <code>python3 -m http.server</code> 在本目录启动后访问。
+    </div>
+  </footer>
+
+  <div id="modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal">
+      <div id="modal-hero" class="modal-hero">
+        <button type="button" id="modal-close" class="modal-close" aria-label="关闭">×</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <img id="lightbox-img" alt="参考图大图">
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="site/app.js"></script>
+</body>
+</html>

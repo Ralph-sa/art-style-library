@@ -1,0 +1,36 @@
+{
+  "id": "your-style-id",
+  "name": "风格显示名",
+  "artist": "艺术家名",
+  "project": "项目名（可选）",
+  "tags": ["标签1", "标签2"],
+  "category": "环境概念",
+  "aspect": "16:9",
+  "aiart": {
+    "mode": "gpt",
+    "recommended_refs": 3
+  },
+  "cover": "cover.jpg",
+  "refs": [
+    "refs/example-01.jpg"
+  ],
+  "palette": [
+    {"hex": "#2E6B63", "name": "主色名"}
+  ],
+  "modules": {
+    "style_lock": "English style lock sentence...",
+    "render_clean": "render / finish module...",
+    "scale": "scale hierarchy...",
+    "light": "lighting module...",
+    "palette": "palette module...",
+    "camera": "camera module...",
+    "mood": "mood module..."
+  },
+  "subject_slot": "{{SUBJECT}}",
+  "prompt_template": "{{style_lock}}. SUBJECT: {{SUBJECT}}. {{scale}}. {{light}}. {{palette}}. {{camera}}. {{render_clean}}. {{mood}}",
+  "example_subject": "a short English subject description...",
+  "prompt_full_example": "Paste a complete ready-to-copy English prompt here.",
+  "negative": "things to avoid...",
+  "notes_zh": "出图注意与工作流说明（中文）",
+  "copyright": "仅供个人学习与风格研究"
+}

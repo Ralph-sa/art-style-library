@@ -1,0 +1,52 @@
+{
+  "id": "sung-choi-concord",
+  "name": "Sung Choi × Concord",
+  "artist": "Sung Choi",
+  "project": "Concord",
+  "tags": ["科幻", "环境概念", "硬表面", "复古未来", "游戏美术"],
+  "category": "环境概念",
+  "aspect": "16:9",
+  "aiart": {
+    "mode": "gpt",
+    "recommended_refs": 3
+  },
+  "cover": "cover.jpg",
+  "refs": [
+    "refs/Crater_City_Early_Concept__sung-choi-crater-city-early-development-sungchoi-1920px.jpg",
+    "refs/Gloom_Early_Concept__sung-choi-gloom-early-development-sungchoi-1600px.jpg",
+    "refs/The_Guild_Concept__sung-choi-guild-early-development-sungchoi-1600px.jpg",
+    "refs/Akkar_Early_Concept__sung-choi-akkar-early-development-sungchoi-1920px.jpg",
+    "refs/Pirate_Cove_Concept_and_Some_Sketches__sung-choi-pirate-cove-exterior-sungchoi-1600px.jpg",
+    "refs/Leviathan_Concept__sung-choi-leviathan-early-development-sungchoi-1920px.jpg",
+    "refs/Early_Concept_for_the_streets_in_Concord__sung-choi-crater-city-street-early-development-sungchoi-1600px.jpg",
+    "refs/More_concord_concept__sung-choi-space-ring-sungchoi-1600px.jpg",
+    "refs/Geysers_of_Coral_Nova__sung-choi-geysers-of-coral-nova-sungchoi-1600px.jpg",
+    "refs/Cockpit__sung-choi-cockpit-sungchoi-1600px.jpg"
+  ],
+  "palette": [
+    {"hex": "#2E6B63", "name": "teal oxidized"},
+    {"hex": "#1B1F24", "name": "charcoal teal-black"},
+    {"hex": "#E08B3C", "name": "amber point light"},
+    {"hex": "#7FA9C4", "name": "far sky cyan"},
+    {"hex": "#5EC8E0", "name": "bright cyan sky"},
+    {"hex": "#C98BC4", "name": "pink-purple moon"},
+    {"hex": "#FF4FA3", "name": "neon pink"},
+    {"hex": "#38E08B", "name": "neon green"}
+  ],
+  "modules": {
+    "style_lock": "retro-futuristic science-fiction ENVIRONMENT concept art, Syd Mead and John Berkey influence, clean digital painting, Concord game concept art style language like Sung Choi, sharp readable forms, polished concept art finish",
+    "render_clean": "clean digital painting, LARGE FLAT COLOR PLANES, sharp hard-surface edges, crisp silhouettes, details only at seams and edges leave big panels EMPTY and SMOOTH, atmospheric soft brushwork ONLY in distant haze clouds and far scrap NOT on armor or main structures, polished concept art, graphic simplified forms, NO muddy smear, NO dirty grunge overlay, NO soft blurry edges on main subject, NO overpainted weathering noise, NO full-surface rust texture, NO oily smudge, NO watercolor wash, NO painterly smear across metal, NO muddy brown dirt wash",
+    "scale": "L1 inhabited megastructure + industrial ring or moon as backdrop, L2 midground settlement readable but NOT cluttered — scaffolding shacks awnings on ruins keep shapes clean and grouped, L3 tiny people and tiny ships with white contrails",
+    "light": "soft diffuse daylight, tiny hard amber point lights, limited neon bloom inside hollows only, clean high-key daylight, NO night grade",
+    "palette": "bright cyan-blue sky, clear teal-green oxidized metal, charcoal teal-black shadows, amber point lights, pink-purple moon accents, small mustard yellow and white panel accents, neon pink-cyan only inside hollows, saturated but CLEAN 70s pop sci-fi, midtones stay clear NOT muddy brown-grey wash",
+    "camera": "low-angle wide 24mm or extreme high-angle 45–75°, subject center-low or side-weighted, large clean sky negative space 25–40%, deep focus, strong silhouette, 16:9 environment composition",
+    "mood": "awe, lived-in used future, clean optimistic retro sci-fi, extreme scale"
+  },
+  "subject_slot": "{{SUBJECT}}",
+  "prompt_template": "{{style_lock}}. SUBJECT: {{SUBJECT}}. {{scale}}. {{light}}. {{palette}}. {{camera}}. {{render_clean}}. {{mood}}",
+  "example_subject": "a colossal cat-shaped ancient-tech wreck standing upright, treated like Gloom robot-skull settlement — hollowed used-future habitat of LARGE CLEAN oxidized teal hard-surface panels with rivets only at seams, scaffolding catwalks and colored awnings on armor cracks, small amber window lights and limited neon pink-cyan glow from chest and helmet gaps, graphic hard-edge planar cat head forms, NO fur NO whiskers NO photoreal face, industrial girder-like greatsword as structural pillar, NOT magic sword",
+  "prompt_full_example": "retro-futuristic science-fiction ENVIRONMENT concept art, Syd Mead and John Berkey influence, clean digital painting, Concord game concept art style language like Sung Choi, sharp readable forms, polished concept art finish\n\nSUBJECT AS INHABITED MEGASTRUCTURE: a colossal cat-shaped ancient-tech wreck standing upright, treated like Gloom robot-skull settlement — hollowed used-future habitat of LARGE CLEAN oxidized teal hard-surface panels with rivets only at seams, scaffolding catwalks and a few colored awnings climbing on armor cracks, small amber window lights and limited neon pink-cyan glow leaking from chest and helmet gaps, cat head graphic hard-edge planar forms large flat color blocks, NO fur, NO whiskers, NO photoreal face, industrial girder-like greatsword planted as structural pillar with a few platforms, NOT magic sword\n\nSCALE: L1 inhabited cat wreck + Halo industrial ring + huge pink-purple moon, L2 midground settlement readable but NOT cluttered — scaffolding shacks awnings on ruins and cat armor like Akkar but keep shapes clean and grouped, L3 tiny people and tiny ships with white contrails\n\nENVIRONMENT: bright cyan-blue daytime sky large continuous clean negative space, huge pale pink-purple moon, industrial Halo ring with clean teal oxidized plating panel lines and tiny amber track lights, rocky plain with soft atmospheric haze in distance only, lived-in used future\n\nLIGHT: soft diffuse daylight, tiny hard amber point lights, limited neon bloom inside hollows only, clean high-key daylight, NO night grade\n\nPALETTE CLEAN: bright cyan-blue sky, clear teal-green oxidized metal, charcoal teal-black shadows, amber point lights, pink-purple moon, small mustard yellow and white panel accents, neon pink-cyan only inside hollows, saturated but CLEAN 70s pop sci-fi, midtones stay clear NOT muddy brown-grey wash\n\nCAMERA: low-angle wide 24mm, inhabited cat center-low, moon and ring upper two thirds, large clean sky, deep focus, strong silhouette, 16:9 environment composition\n\nRENDER CRITICAL — CLEAN FINISH: clean digital painting, LARGE FLAT COLOR PLANES, sharp hard-surface edges, crisp silhouettes, details only at seams and edges leave big panels EMPTY and SMOOTH, atmospheric soft brushwork ONLY in distant haze clouds and far scrap NOT on armor or main structures, polished concept art, graphic simplified forms, NO muddy smear, NO dirty grunge overlay, NO soft blurry edges on main subject, NO overpainted weathering noise, NO full-surface rust texture, NO oily smudge, NO watercolor wash, NO painterly smear across metal, NO muddy brown dirt wash\n\nMOOD: awe, lived-in used future, clean optimistic retro sci-fi, extreme scale",
+  "negative": "muddy colors, dirty smear, smudged brushstrokes, oily paint smear, grunge texture overlay, dirty brown wash, overweathered noise, full-surface rust speckles, soft blurry armor edges, painterly smear on metal, watercolor bleed, muddy midtones, grey-brown mud, photorealistic cat face, realistic fur, tabby stripes, whiskers, cinematic blue night, glowing runes, magic sword glow, monochrome teal-only, octane, unreal engine, hyperrealistic, 8k photo, bokeh, anime, watermark, logo, text",
+  "notes_zh": "出图注意：干净硬边、大平面留白、笔触仅远景、弱化全表面 rust；配合 Aiart gpt + 3 张参考图。尺度必须含 L1 巨构 + L2 人居 + L3 点景。禁止脏灰 smear 与全表面锈蚀噪声。完整分析见 STYLE_ANALYSIS.md。",
+  "copyright": "仅供个人学习与风格研究；参考图来自 ArtStation 公开作品（Sung Choi / Concord）"
+}
