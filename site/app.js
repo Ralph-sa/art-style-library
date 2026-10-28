@@ -334,7 +334,7 @@
       (style.notes_zh
         ? '<div class="notes">' + esc(style.notes_zh) + "</div>"
         : "") +
-      '<p class="prompt-lang-note" style="margin:12px 0 0;color:var(--faint);font-size:12px">提示词正文为英文，便于 Aiart 生图</p>' +
+      '<p class="prompt-lang-note" style="margin:12px 0 0;color:var(--faint);font-size:12px">提示词为简体中文，可直接复制使用</p>' +
       '<div class="section-label"><h3>色板</h3></div>' +
       '<div class="palette">' +
       (paletteHtml || "<span style='color:var(--muted)'>无</span>") +

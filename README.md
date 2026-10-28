@@ -2,7 +2,7 @@
 
 纯静态网站：按 Cookbook 风格包结构管理你收集的美术风格，支持分类浏览、详情、一键复制正向/负向提示词、查看参考图。第一包：**Sung Choi × Concord**。
 
-> 界面与说明为简体中文；**提示词正文（正向 / 负向 / 模块）保留英文**，便于本机 Aiart 生图。
+> 界面、说明与**提示词正文（正向 / 负向 / 模块）均为简体中文**，可直接复制到本机 Aiart 使用。
 
 ## 本地打开
 
@@ -48,7 +48,7 @@ art-style-library/
    mkdir -p styles/<你的-id>/refs styles/<你的-id>/prompts
    ```
 2. 放入 `cover.jpg`、精选 `refs/`（建议 8–12 张）、可选 `prompts/*.txt` 与分析 Markdown。
-3. 编辑 `styles/<你的-id>/style.json`（字段说明见模板与第一包；提示词字段请写英文）。
+3. 编辑 `styles/<你的-id>/style.json`（字段说明见模板与第一包；提示词字段请写简体中文）。
 4. 在 `styles/index.json` **追加一条**清单项：
    ```json
    {

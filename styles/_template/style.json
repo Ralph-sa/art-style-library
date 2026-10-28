@@ -24,19 +24,19 @@
     }
   ],
   "modules": {
-    "style_lock": "（英文）风格锁定句，供 Aiart 生图…",
-    "render_clean": "（英文）干净渲染 / 完成度模块…",
-    "scale": "（英文）尺度层级模块…",
-    "light": "（英文）光照模块…",
-    "palette": "（英文）色板描述模块…",
-    "camera": "（英文）镜头模块…",
-    "mood": "（英文）氛围模块…"
+    "style_lock": "（简体中文）风格锁定句，可直接复制给 Aiart 生图…",
+    "render_clean": "（简体中文）干净渲染 / 完成度模块…",
+    "scale": "（简体中文）尺度层级模块，如 L1/L2/L3…",
+    "light": "（简体中文）光照模块…",
+    "palette": "（简体中文）色板描述模块…",
+    "camera": "（简体中文）镜头模块…",
+    "mood": "（简体中文）氛围模块…"
   },
-  "subject_slot": "{{SUBJECT}}",
-  "prompt_template": "{{style_lock}}. SUBJECT: {{SUBJECT}}. {{scale}}. {{light}}. {{palette}}. {{camera}}. {{render_clean}}. {{mood}}",
-  "example_subject": "（英文）示例主体描述，供拼进提示词…",
-  "prompt_full_example": "（英文）完整可一键复制的正向提示词正文。",
-  "negative": "（英文）负向提示词…",
+  "subject_slot": "{{主体}}",
+  "prompt_template": "{{style_lock}}。主体：{{主体}}。{{scale}}。{{light}}。{{palette}}。{{camera}}。{{render_clean}}。{{mood}}",
+  "example_subject": "（简体中文）示例主体描述，供拼进提示词…",
+  "prompt_full_example": "（简体中文）完整可一键复制的正向提示词正文。",
+  "negative": "（简体中文）负向提示词…",
   "notes_zh": "出图注意与工作流说明（中文）",
   "copyright": "仅供个人学习与风格研究"
 }
